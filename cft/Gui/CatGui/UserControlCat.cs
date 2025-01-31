@@ -23,9 +23,19 @@ namespace cft.Gui
             return _userControlCat ?? (new UserControlCat());
         }
 
-     
+
 
         private void UserControlCat_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tablePanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void simpleButtonAdd_Click(object sender, EventArgs e)
         {
 
         }

@@ -59,5 +59,23 @@ namespace cft.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à لايوجد بيانات.
+        /// </summary>
+        internal static string EmptyMessageCation {
+            get {
+                return ResourceManager.GetString("EmptyMessageCation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à يبدو ان سبكة عرض البيانات فارغة ، لايمكن تنفيض هدا الاجراء.
+        /// </summary>
+        internal static string EmptyMessageText {
+            get {
+                return ResourceManager.GetString("EmptyMessageText", resourceCulture);
+            }
+        }
     }
 }
